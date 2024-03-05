@@ -59,7 +59,7 @@ const firstHalf = (str) => str.slice(0,str.length / 2)
 console.log(firstHalf("Aeroplane"))
 console.log(firstHalf("Helicopter"))
 
-// 7.write a javascript program to concatenate two strings except their dirst character.
+// 7.write a javascript program to concatenate two strings except their first character.
 
 const conStrings = (a,b) =>   a.slice(1) + b.slice(1)
 
