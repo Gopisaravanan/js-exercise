@@ -129,7 +129,7 @@ const checkOrder = (arr) => {
 // solution 2
 const checkOrder1 = (arr) => {
     const arr1 = [...arr]
-    return arr.sort((a, b) => a - b) === arr1 ? "array is an acending order" : "array is not an acending order"
+    return JSON.stringify(arr.sort((a,b) => a-b)) === JSON.stringify(arr1) ? "array is an acending order" : "array is not an acending order"
 }
 
 console.log(checkOrder1([1,4,3,5]))
